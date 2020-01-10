@@ -1,4 +1,4 @@
-# `@keanucode/initprj`
+# `@keanucode/initpkg`
 
 Personal CLI to init new projects
 
@@ -7,10 +7,10 @@ Personal CLI to init new projects
 ```bash
 npm init @keanucode/project
 # or
-npx @keanucode/initprj
+npx @keanucode/initpkg
 # or
-npm install -g @keanucode/initprj
-initprj
+npm install -g @keanucode/initpkg
+initpkg
 ```
 
 ## License
