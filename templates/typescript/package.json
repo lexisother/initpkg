@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Keanu Timmermans <keanutimmermans8@gmail.com> (https://keanucode.herokuapp.com)",
+  "author": "Lexi Sother <lexisoth2005@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^3.3.3333"
