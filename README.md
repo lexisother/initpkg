@@ -5,11 +5,7 @@ Personal CLI to init new projects
 ## Installation & Usage
 
 ```bash
-npm init @keanucode/project
-# or
-npx @keanucode/initpkg
-# or
-npm install -g @keanucode/initpkg
+npm install -g initpkg
 initpkg
 ```
 
