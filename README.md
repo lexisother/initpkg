@@ -1,4 +1,4 @@
-# `@keanucode/initpkg`
+# `initpkg` [![npm version](https://badge.fury.io/js/initpkg.svg)](https://badge.fury.io/js/initpkg)
 
 Personal CLI to init new projects
 
