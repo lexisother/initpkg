@@ -39,7 +39,7 @@ async function promptForMissingOptions(options) {
       type: 'list',
       name: 'template',
       message: 'Please choose which project template to use',
-      choices: ['javascript', 'typescript'],
+      choices: ['javascript', 'typescript', 'nodejs'],
       default: defaultTemplate,
     });
   }
@@ -48,7 +48,7 @@ async function promptForMissingOptions(options) {
     questions.push({
       type: 'confirm',
       name: 'git',
-      message: 'Should a git be initialized?',
+      message: 'Should a git repo be initialized?',
       default: false,
     });
   }

@@ -1,17 +1,16 @@
 {
-  "name": "typescript-template",
+  "name": "nodejs-template",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Keanu Timmermans <keanutimmermans8@gmail.com> (https://keanucode.herokuapp.com)",
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^3.3.3333"
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "esm": "^3.2.18"
   }
 }
