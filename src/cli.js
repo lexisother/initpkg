@@ -1,6 +1,6 @@
-import arg from 'arg';
-import inquirer from 'inquirer';
-import { createProject } from './main';
+const arg = require('arg');
+const inquirer = require('inquirer');
+const { createProject } = require('./main');
 
 function parseArgumentsIntoOptions(rawArgs) {
   const args = arg(
