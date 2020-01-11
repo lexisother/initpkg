@@ -1,13 +1,14 @@
-import chalk from 'chalk';
-import execa from 'execa';
-import fs from 'fs';
-import gitignore from 'gitignore';
-import Listr from 'listr';
-import ncp from 'ncp';
-import path from 'path';
-import { projectInstall } from 'pkg-install';
-import license from 'spdx-license-list/licenses/MIT';
-import { promisify } from 'util';
+const chalk = require('chalk');
+const execa = require('execa');
+const fs = require('fs');
+const gitignore = require('gitignore');
+const Listr = require('listr');
+const ncp = require('ncp');
+const path = require('path');
+const { projectInstall } = require('pkg-install');
+const license = require('spdx-license-list/licenses/MIT');
+const { promisify } = require('util');
+const { fileURLToPath } = require('url');
 
 const access = promisify(fs.access);
 const writeFile = promisify(fs.writeFile);
@@ -58,7 +59,7 @@ export async function createProject(options) {
   };
 
   const templateDir = path.resolve(
-    new URL(import.meta.url).pathname,
+    fileURLToPath(import.meta.url),
     '../../templates',
     options.template
   );
