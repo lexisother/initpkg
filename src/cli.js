@@ -38,8 +38,8 @@ async function promptForMissingOptions(options) {
     questions.push({
       type: 'list',
       name: 'template',
-      message: 'Please choose which project template to use',
-      choices: ['javascript', 'typescript', 'nodejs', 'go-cli'],
+      message: 'Please choose which project template to use:',
+      choices: ['javascript', 'typescript', 'nodejs', 'java', 'go-cli'],
       default: defaultTemplate,
     });
   }
