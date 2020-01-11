@@ -1,6 +1,6 @@
 {
   "name": "initpkg",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A CLI to init my new projects",
   "main": "src/main.js",
   "bin": "bin/initpkg",
@@ -19,6 +19,9 @@
   "license": "MIT",
   "dependencies": {
     "arg": "^4.1.0",
+    "figlet": "^1.2.4",
+    "commander": "^4.1.0",
+    "clear": "^0.1.0",
     "chalk": "^2.4.2",
     "covgen": "^3.1.0",
     "esm": "^3.2.18",

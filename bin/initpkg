@@ -1,4 +1,25 @@
 #!/usr/bin/env node
 
+const chalk = require('chalk');
+const clear = require('clear');
+const figlet = require('figlet');
+const path = require('path');
+const program = require('commander');
+
+clear();
+console.log(
+  chalk.red(
+    figlet.textSync('initpkg', { horizontalLayout: 'full' })
+  )
+);
+
+console.log(
+    "Usage: initpkg [options]\r\n",
+    "A personal CLI to init my new projects.\r\n",
+    "Options:\r\n",
+    "-i, --install: Install template dependencies.\r\n",
+    "-y, --yes: Skip all prompts.\r\n",
+    "-g, --git: Initialize empty Git repository.\r\n\r\n"
+);
 require = require('esm')(module /*, options*/);
 require('../src/cli.js').cli(process.argv);
