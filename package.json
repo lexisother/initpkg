@@ -1,9 +1,9 @@
 {
   "name": "initpkg",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A CLI to init my new projects",
-  "main": "src/index.js",
-  "bin": "bin/initprj",
+  "main": "src/main.js",
+  "bin": "bin/initpkg",
   "publishConfig": {
     "access": "public"
   },
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "cli",
-    "initprj"
+    "initpkg",
+    "create-project"
   ],
   "author": "Keanu Timmermans <keanutimmermans8@gmail.com> (https://keanucode.herokuapp.com)",
   "license": "MIT",
