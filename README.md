@@ -13,7 +13,3 @@ initpkg
 ## License
 
 MIT
-
-## Collaborators
-
-This project has been created by Dominik Kundel. I have added my personal templates.
