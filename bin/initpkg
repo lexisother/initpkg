@@ -6,6 +6,7 @@ const figlet = require('figlet');
 const path = require('path');
 var ui = require('cliui')()
 
+clear();
 console.log(
   chalk.red(
     figlet.textSync('initpkg', { horizontalLayout: 'full' })
