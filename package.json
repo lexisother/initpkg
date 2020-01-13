@@ -1,6 +1,6 @@
 {
   "name": "initpkg",
-  "version": "1.5.0",
+  "version": "1.5.5",
   "description": "A CLI to init my new projects",
   "main": "src/main.js",
   "bin": "bin/initpkg",
