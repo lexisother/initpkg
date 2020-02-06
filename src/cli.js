@@ -39,7 +39,7 @@ async function promptForMissingOptions(options) {
       type: 'list',
       name: 'template',
       message: 'Please choose which project template to use:',
-      choices: ['javascript', 'typescript', 'nodejs', 'java', 'go-cli'],
+      choices: ['javascript', 'typescript', 'nodejs', 'java', 'go-cli', 'python-cli'],
       default: defaultTemplate,
     });
   }
@@ -66,5 +66,3 @@ export async function cli(args) {
   options = await promptForMissingOptions(options);
   await createProject(options);
 }
-
-// ...
