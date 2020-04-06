@@ -17,7 +17,7 @@
   "author": "Lexi Sother <lexisoth2005@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "arg": "^4.1.0",
+    "arg": "^4.1.3",
     "chalk": "^2.4.2",
     "covgen": "^3.1.0",
     "esm": "^3.2.18",
